@@ -1,0 +1,72 @@
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #55552b;
+  border-bottom: 5px solid #55552b;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+* {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+/*Size 10 font seemed a little small for the font Lato, so I changed it to 12*/
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  background-color: #99994d;
+}
+
+h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  font-family: 'Spectral SC', serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-family: 'Spectral SC', serif;
+}
+
+aside {
+  text-align: center;
+  padding: 40px;
+}
+
+a:hover {
+  color: #a30000;
+  text-decoration: none;
+}
+
+section {
+  margin-right: 75px;
+  margin-left: 30px;
+
+}
+
+nav {
+  padding: 10px;
+}
+
+footer {
+
+}
+
+main {
+  display: flex;
+  margin: 20px;
+  padding: 30px;
+  background-image: url(images/collegepic.jpg);
+  background-position: center;
+  background-size: 1500px;
