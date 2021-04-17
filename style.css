@@ -57,9 +57,10 @@ section {
 nav {
   position: absolute;
   top: 130px;
-  right: 10px;
   word-spacing: 30px;
   text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .link2 {
